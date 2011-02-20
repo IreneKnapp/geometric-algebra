@@ -1,0 +1,28 @@
+name: geometric-algebra
+version: 0.5
+build-type: Simple
+cabal-version: >=1.6
+license: BSD3
+license-file: LICENSE
+author: Dan Knapp
+maintainer: dankna@gmail.com
+homepage: http://dankna.com/software/
+category: Math, Algebra, Data
+synopsis:
+  Primitives of geometric algebra.
+description:         
+  Primitives of geometric algebra, useful for representing three-dimensional
+  information and operations on it.  Geometric algebra was developed by some
+  mathematicians as, if not exactly a replacement for linear algebra and
+  quaternions as ways of representing affine transformations, a framework
+  which subsumes some parts of them and replaces others.  It has applications
+  to games and graphics.
+
+Source-Repository head
+  type: darcs
+  location: http://dankna.com/software/darcs/geometric-algebra/
+
+Library
+  -- Exposed-modules:     
+  -- Other-modules:       
+  -- Build-depends:       
