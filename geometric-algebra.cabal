@@ -23,6 +23,6 @@ Source-Repository head
   location: http://dankna.com/software/darcs/geometric-algebra/
 
 Library
-  -- Exposed-modules:     
-  -- Other-modules:       
-  -- Build-depends:       
+  Exposed-modules: Numeric.GeometricAlgebra
+  -- Other-modules:
+  Build-depends: base >= 4.1 && < 5
